@@ -24,11 +24,3 @@ A lightweight, Unix-like command-line interpreter written completely from scratc
 * Employs memory management algorithms using continuous primitive pointer shifts to automatically drop the oldest commands when matching storage capacity constraints.
 
 ---
-
-## 🛠️ Compilation and Execution Guide
-
-To build and execute this interactive terminal on a POSIX-compliant environment (Linux/Unix):
-
-1. **Compile the Source File:**
-   ```bash
-   gcc -Wall -Wextra shell.c -o terminal-ri
